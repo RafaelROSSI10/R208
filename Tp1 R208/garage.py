@@ -1,11 +1,9 @@
-# Importation de la classe Voitures depuis notre fichier module
 from obj_voitures import Voitures
 
 print("="*50)
 print("1. CRÉATION DU GARAGE")
 print("="*50)
 
-# Création des deux instances principales pour les tests
 captur = Voitures(marque="Renault", modele="Captur_TCE_90ch", annee=2021, couleur="Gris foncé", conso=7.2, prix=20000)
 clio = Voitures(marque="Renault", modele="Clio_TCE_100ch", annee=2018, couleur="Bleu nuit", conso=5.5, prix=17000)
 
@@ -22,7 +20,7 @@ print("--- Consommation Carburant ---")
 print(f"Captur : {captur.calcul_consommation(distance):.2f} L")
 print(f"Clio   : {clio.calcul_consommation(distance):.2f} L")
 
-print("\n--- Bilan Carbone (CO2) ---")
+print("\nBilan Carbone (CO2)")
 print(f"Captur : {captur.calcul_co2(distance):.2f} kg de CO2")
 print(f"Clio   : {clio.calcul_co2(distance):.2f} kg de CO2")
 print("Rappel : Un voyage en TGV génère environ 3.9 kg de CO2 par passager !")
