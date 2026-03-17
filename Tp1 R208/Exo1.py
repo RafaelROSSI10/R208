@@ -1,5 +1,5 @@
 class Voitures():
-    def __init__(self, marque, modele, annee):
+    def __init__(self, marque = "ferrari", modele = "sf90", annee = 2010):
         self.marque = marque
         self.annee = annee
         self.modele = modele
@@ -24,9 +24,23 @@ print(ma_voiture)
 voiture4 = Voitures()
 print("Voiture 4 :", voiture4)
 
-voiture5 = Voitures("F40")
+voiture5 = Voitures(modele="F40", annee= 1990)
 print("Voiture 5 :", voiture5)
 
-voiture6 = Voitures(modele="296_GTS")
+voiture6 = Voitures(modele="296_GTS", marque="Porsche")
 print("Voiture 6 :", voiture6)
+
+print("\n--- Type ---")
+print(type(voiture6))
+
+
+print("\n--- Vars ---")
+print(vars(voiture6))
+
+print("\n--- Dir ---")
+print(dir(voiture6))
+
+
+
+
 
