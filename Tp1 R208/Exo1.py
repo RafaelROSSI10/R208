@@ -49,3 +49,4 @@ print("Type (étape 12) :", type(voiture6))
 print("Vars (étape 13) :", vars(voiture6))
 # Étape 14
 print("Dir  (étape 14) :", dir(voiture6))
+zzz
