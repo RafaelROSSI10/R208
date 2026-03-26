@@ -3,9 +3,9 @@ from .obj_livre import Livre
 from .obj_membre import Membre
 from .obj_bibliotheque import Bibliotheque
 from .obj_ihm import Ihm
-from .obj_couleur import couleur
+from .obj_couleur import Couleur
 
-__all__: [
-    'Bibliotheque'
-    'Ihm'
+__all__ = [
+    'Bibliotheque',
+    'Ihm',
 ]

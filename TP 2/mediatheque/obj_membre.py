@@ -1,5 +1,5 @@
 from .obj_couleur import Couleur
-from .obj_auteur import Auteur
+
 
 
 class Membre(Couleur):

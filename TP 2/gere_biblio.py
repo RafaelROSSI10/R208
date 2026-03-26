@@ -1,5 +1,7 @@
+from mediatheque import Bibliotheque, Ihm
 from mediatheque.obj_bibliotheque import Bibliotheque
 from mediatheque.obj_ihm import Ihm
+
 
 FICHIER_JSON_AUTEURS = "Auteurs.json"
 FICHIER_JSON_LIVRES = "Livres.json"
